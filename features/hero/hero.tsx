@@ -27,16 +27,6 @@ export function Hero({ profile }: HeroProps) {
             </Button>
           </div>
         </Reveal>
-        <Reveal className="justify-self-start rounded-3xl bg-slate-900/50 p-3 shadow-xl shadow-black/30 transition-shadow duration-200 hover:shadow-2xl hover:shadow-black/40 lg:justify-self-end">
-          <Image
-            src="/images/avatar-dev.svg"
-            alt="Ilustracao de desenvolvedor em setup gamer"
-            width={420}
-            height={420}
-            priority
-            className="h-auto w-full max-w-sm rounded-2xl"
-          />
-        </Reveal>
       </Container>
     </section>
   );
