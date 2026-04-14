@@ -107,6 +107,7 @@ const portfolioData: PortfolioData = {
     { label: "Email", href: "mailto:lucas.kaiut@gmail.com" },
     { label: "LinkedIn", href: "https://linkedin.com/in/lucas-kaiut" },
     { label: "GitHub", href: "https://github.com/lucaskaiut" },
+    { label: "WhatsApp", href: "https://wa.me/5541997498795" },
   ],
 };
 
