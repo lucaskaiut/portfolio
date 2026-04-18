@@ -37,7 +37,7 @@ export function Skills({ skills }: SkillsProps) {
                         <div className="h-2 rounded-full bg-slate-800">
                           <div
                             aria-label={`Dominio em ${skill.name}`}
-                            className="h-2 rounded-full bg-emerald-500 transition-all duration-300"
+                            className="h-2 rounded-full bg-[#9d00ff] transition-all duration-300"
                             style={{ width: `${skill.level}%` }}
                           />
                         </div>
