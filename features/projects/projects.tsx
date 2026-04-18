@@ -53,7 +53,7 @@ export function Projects({ projects }: ProjectsProps) {
                       href={project.demoUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="cursor-pointer text-sm font-semibold text-emerald-400 transition-colors duration-200 hover:text-emerald-300"
+                      className="cursor-pointer text-sm font-semibold text-[#9d00ff] transition-colors duration-200 hover:text-[#9d00ff]/90"
                     >
                       Demo
                     </a>

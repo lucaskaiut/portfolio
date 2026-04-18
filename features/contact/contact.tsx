@@ -28,7 +28,7 @@ export function Contact({ links }: ContactProps) {
                       href={link.href}
                       target={link.href.startsWith("mailto:") ? undefined : "_blank"}
                       rel={link.href.startsWith("mailto:") ? undefined : "noreferrer"}
-                      className="cursor-pointer text-sm text-slate-300 transition-colors duration-200 hover:text-emerald-400"
+                      className="cursor-pointer text-sm text-slate-300 transition-colors duration-200 hover:text-[#9d00ff]"
                     >
                       {link.label}
                     </a>

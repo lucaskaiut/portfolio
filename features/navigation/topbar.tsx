@@ -25,7 +25,7 @@ export function Topbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="cursor-pointer text-sm text-slate-300 transition-colors duration-200 hover:text-emerald-400 focus-visible:text-emerald-300 focus-visible:outline-none"
+                  className="cursor-pointer text-sm text-slate-300 transition-colors duration-200 hover:text-[#9d00ff] focus-visible:text-[#9d00ff] focus-visible:outline-none"
                 >
                   {link.label}
                 </a>

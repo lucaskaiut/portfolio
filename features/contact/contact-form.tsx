@@ -43,7 +43,7 @@ export function ContactForm() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-emerald-400"
+            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-[#9d00ff]"
           />
         </label>
         <label className="grid gap-2 text-sm text-slate-200">
@@ -55,7 +55,7 @@ export function ContactForm() {
             inputMode="tel"
             autoComplete="tel"
             required
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-emerald-400"
+            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-[#9d00ff]"
           />
         </label>
         <label className="grid gap-2 text-sm text-slate-200">
@@ -65,19 +65,19 @@ export function ContactForm() {
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
             required
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-emerald-400"
+            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-slate-100 outline-none transition-colors duration-200 focus:border-[#9d00ff]"
           />
         </label>
       </div>
       <button
         type="button"
-        className="mt-5 cursor-pointer rounded-xl bg-emerald-500 px-5 py-3 text-sm font-semibold text-slate-950 transition-colors duration-200 hover:bg-emerald-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
+        className="mt-5 cursor-pointer rounded-xl bg-[#9d00ff] px-5 py-3 text-sm font-semibold text-slate-950 transition-colors duration-200 hover:bg-[#9d00ff]/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9d00ff]"
         onClick={onSubmit}
       >
         Enviar mensagem
       </button>
       {status === "success" ? (
-        <p role="status" className="mt-3 text-sm text-emerald-400">
+        <p role="status" className="mt-3 text-sm text-[#9d00ff]">
           Mensagem enviada com sucesso. Retornarei em breve.
         </p>
       ) : null}
