@@ -49,22 +49,26 @@ export function Projects({ projects }: ProjectsProps) {
                     ))}
                   </div>
                   <div className="mt-auto flex gap-3 pt-2">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="cursor-pointer text-sm font-semibold text-[#9d00ff] transition-colors duration-200 hover:text-[#9d00ff]/90"
-                    >
-                      Demo
-                    </a>
-                    <a
-                      href={project.repoUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="cursor-pointer text-sm font-semibold text-slate-300 transition-colors duration-200 hover:text-slate-100"
-                    >
-                      Repositorio
-                    </a>
+                    {project.demoUrl && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="cursor-pointer text-sm font-semibold text-[#9d00ff] transition-colors duration-200 hover:text-slate-100"
+                      >
+                        Demo
+                      </a>
+                    )}
+                    {project.repoUrl && (
+                      <a
+                        href={project.repoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="cursor-pointer text-sm font-semibold text-slate-300 transition-colors duration-200 hover:text-slate-100"
+                      >
+                        Repositorio
+                      </a>
+                    )}  
                   </div>
                 </Link>
               </Card>

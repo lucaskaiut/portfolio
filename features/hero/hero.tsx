@@ -21,7 +21,7 @@ export function Hero({ profile }: HeroProps) {
           </h1>
           <p className="max-w-xl text-lg text-slate-300">{profile.tagline}</p>
           <div className="flex flex-wrap gap-3">
-            <Button href="#contact">Me contrate</Button>
+            <Button href="#contact" className="text-white">Me contrate</Button>
             <Button href="#projects" variant="ghost">
               Ver projetos
             </Button>

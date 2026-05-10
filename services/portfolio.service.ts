@@ -63,9 +63,29 @@ const portfolioData: PortfolioData = {
       description:
         "Sistema de matrícula online para instituições de ensino",
       technologies: ["Next.js", "PHP", "MySQL", "Laravel", "React"],
-      demoUrl: "https://ematricula.lucaskaiut.com.br",
-      repoUrl: "",
+      demoUrl: "",
+      repoUrl: "https://github.com/lucaskaiut/ematricula",
       image: "/images/ematricula.png",
+    },
+    {
+      id: "horus",
+      name:"Horus",
+      description:
+        "Sistema de registro de consulta de logs",
+      technologies: ["Next.js", "PHP", "MySQL", "Laravel", "React", "OpenSearch", "Redis"],
+      demoUrl: "",
+      repoUrl: "https://github.com/lucaskaiut/horus",
+      image: "/images/horus.png",
+    },
+    {
+      id: "tasksautomation",
+      name: "Tasks Automation",
+      description:
+        "Sistema de automação de tarefas",
+      technologies: ["Next.js", "PHP", "MySQL", "Laravel", "React", "Websocket", "Redis"],
+      demoUrl: "",
+      repoUrl: "https://github.com/lucaskaiut/tasksautomation",
+      image: "/images/tasksautomation.png",
     },
     {
       id: "monensure",
