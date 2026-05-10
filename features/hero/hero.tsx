@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
@@ -24,6 +23,14 @@ export function Hero({ profile }: HeroProps) {
             <Button href="#contact" className="text-white">Me contrate</Button>
             <Button href="#projects" variant="ghost">
               Ver projetos
+            </Button>
+            <Button
+              href="/resume.pdf"
+              variant="ghost"
+              download="curriculo.pdf"
+              prefetch={false}
+            >
+              Baixar currículo
             </Button>
           </div>
         </Reveal>
