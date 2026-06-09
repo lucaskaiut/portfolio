@@ -88,6 +88,16 @@ const portfolioData: PortfolioData = {
       image: "/images/tasksautomation.png",
     },
     {
+      id: "TothCRM",
+      name: "TothCRM",
+      description:
+        "Sistema de gerenciamento de leads, com integração com WhatsApp e agente de IA",
+      technologies: ["PHP", "MySQL", "Laravel", "React", "Websocket", "Redis", "EvolutionAPI"],
+      demoUrl: "https://toth.lucaskaiut.com.br",
+      repoUrl: "https://github.com/lucaskaiut/toth",
+      image: "/images/toth-crm.png",
+    },
+    {
       id: "monensure",
       name: "Monensure",
       description:
