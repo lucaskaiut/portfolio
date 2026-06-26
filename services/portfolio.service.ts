@@ -38,6 +38,16 @@ const portfolioData: PortfolioData = {
       image: "/images/project-analytics.svg",
     },
     {
+      id: "vulcano",
+      name: "Vulcano",
+      description:
+        "Sistema de gestão de colaboradores PJ com controle de férias, comissões, custos e aprovações configuráveis",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "PHP", "Laravel", "MySQL", "Docker"],
+      demoUrl: "",
+      repoUrl: "",
+      image: "/images/project-health.svg",
+    },
+    {
       id: "nox-agenda",
       name: "Nox Agenda",
       description:
