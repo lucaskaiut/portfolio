@@ -35,7 +35,7 @@ const portfolioData: PortfolioData = {
       technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "PHP", "Laravel", "MySQL", "Redis", "Docker"],
       demoUrl: "",
       repoUrl: "https://github.com/lucaskaiut/atena",
-      image: "/images/project-analytics.svg",
+      image: "/images/atena.png",
     },
     {
       id: "vulcano",
@@ -45,7 +45,7 @@ const portfolioData: PortfolioData = {
       technologies: ["React", "TypeScript", "Tailwind CSS", "PHP", "Laravel", "MySQL", "Docker"],
       demoUrl: "",
       repoUrl: "",
-      image: "/images/project-health.svg",
+      image: "/images/vulcano.png",
     },
     {
       id: "nox-agenda",
