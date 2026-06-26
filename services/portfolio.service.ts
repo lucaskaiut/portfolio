@@ -58,26 +58,6 @@ const portfolioData: PortfolioData = {
       image: "/images/nox-agenda.png",
     },
     {
-      id: "tio-orlando",
-      name: "Tio Orlando Viagens",
-      description:
-        "Site de e-commerce para o ramo turístico, baseado em uma plataforma de e-commerce própria (eShop)",
-      technologies: ["Next.js", "PHP", "MySQL", "Laravel", "React"],
-      demoUrl: "https://tioorlando.com.br",
-      repoUrl: "",
-      image: "/images/tio-orlando.png",
-    },
-    {
-      id: "eshop",
-      name: "eShop",
-      description:
-        "Plataforma de e-commerce para venda de produtos e serviços",
-      technologies: ["Next.js", "PHP", "MySQL", "Laravel", "React"],
-      demoUrl: "https://emutuadigital.com",
-      repoUrl: "",
-      image: "/images/eshop.png",
-    },
-    {
       id: "ematricula",
       name: "eMatrícula",
       description:
