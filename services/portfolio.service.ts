@@ -28,6 +28,16 @@ const portfolioData: PortfolioData = {
   ],
   projects: [
     {
+      id: "atena",
+      name: "Atena",
+      description:
+        "Plataforma multi-tenant de gerenciamento de tarefas e projetos com Kanban, Gantt, time tracking e dashboards",
+      technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "PHP", "Laravel", "MySQL", "Redis", "Docker"],
+      demoUrl: "",
+      repoUrl: "https://github.com/lucaskaiut/atena",
+      image: "/images/project-analytics.svg",
+    },
+    {
       id: "nox-agenda",
       name: "Nox Agenda",
       description:
